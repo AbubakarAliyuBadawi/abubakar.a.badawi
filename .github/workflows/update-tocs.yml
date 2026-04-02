@@ -43,6 +43,16 @@ jobs:
           done
           rm gh-md-toc
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+
+      - name: Run Prettier on updated files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          npm install --save-dev prettier @shopify/prettier-plugin-liquid
+          npx prettier ${ALL_CHANGED_FILES} --write
+
       - name: Commit changes
         if: steps.changed-files.outputs.any_changed == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5.0.1
