@@ -1,189 +1,237 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Abubakar Aliyu Badawi
+  label: PhD Researcher
+  email: abubakar.a.badawi@ntnu.no
+  phone: "+4798837844"
+  location: Trondheim, Norway
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: PhD Researcher in Risk & Probabilistic Modeling for Human-System Interaction of Autonomous Systems at NTNU. Specializing in marine robotics, autonomous underwater vehicles, and intelligent systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: AbubakarAliyuBadawi
     - network: LinkedIn
-      username: example
+      username: abubakar-aliyu-badawi-41533b150
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: H403, Arne Bergsgård Veg 6
+    city: Trondheim
+    region: Trøndelag
+    postalCode: "7030"
+    countryCode: NO
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Norwegian University of Science and Technology (NTNU)
+        location: Trondheim, Norway
+        area: Marine Technology
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2025-08-01
+        end_date: 2028-08-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Title: Risk & Probabilistic Modeling for Human System Interaction of Autonomous Systems"
+          - "Supervisor: Professor Ingrid Bouwer Utne"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Norwegian University of Science and Technology (NTNU)
+        location: Trondheim, Norway
+        area: Marine and Maritime Intelligent Robotics
+        studyType: MSc
+        start_date: 2024-08-01
+        end_date: 2025-06-01
+        score: "Grade: B"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Towards Fully Autonomous Small Residence Underwater Vehicle"
+          - "Supervisor: Professor Martin Ludvigsen"
+
+      - institution: Université de Toulon
+        location: La Garde, France
+        area: Engineering of Complex Systems - Marine Intelligent Robotics
+        studyType: MSc
+        start_date: 2023-09-01
+        end_date: 2024-06-01
+        score: "16.31/20.00"
+        highlights:
+          - "Relevant Modules: Marine Control and Mechatronics, Robotics & Control, AI, ML & RL"
+
+      - institution: Bayero University
+        location: Kano, Nigeria
+        area: Mechatronics Engineering
+        studyType: B.Eng
+        start_date: 2015-03-01
+        end_date: 2020-01-01
+        score: "First-Class Honours (4.66/5.00)"
+        highlights:
+          - "Thesis: Design and construction of a load-controlled tower crane robot"
+          - "Supervisor: Professor Ado Haruna"
+
+    Research Experience:
+      - company: Applied Underwater Robotics Lab (AURLab)
+        position: Master Thesis Intern
+        location: Trondheim, Norway
+        start_date: 2024-08-01
+        end_date: 2025-06-01
+        highlights:
+          - Developed a hybrid Behavior Tree-based mission planner in ROS2 to transform the Blueye ROV into a fully autonomous resident underwater vehicle capable of long-duration inspection missions.
+          - Integrated reinforcement learning using Q-learning into the mission architecture to enable adaptive task prioritization based on battery state, sensor feedback, and mission progress.
+          - Validated the complete autonomous control system in Gazebo simulations and real-world field trials with the Blueye ROV in Trondheim Fjord.
+
+      - company: Laboratoire d'Informatique et Systèmes (LISLab)
+        position: Deep-Learning Intern
+        location: Toulon, France
+        start_date: 2024-06-01
+        end_date: 2024-08-01
+        highlights:
+          - Investigated the semantic performance improvement of speech-language models by synthesizing the LibriLight dataset (60k hours) using TensorFlow's FastSpeech2 and MB-MelGAN vocoder.
+          - Developed scripts and algorithms in Python for data processing and model training on HPC clusters using SLURM for job scheduling.
+          - Utilized Weights & Biases (WandB) for real-time visualization of the training process.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Vortex NTNU
+        position: "Robotics Software Engineer: Autonomous Systems"
+        location: Trondheim, Norway
+        url: https://github.com/vortexntnu/vortex-auv
+        start_date: 2024-09-01
+        end_date: 2025-08-01
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed a ROS2 action server implementing 3D Line-of-Sight guidance with adaptive parameter estimation for autonomous underwater vehicles, featuring real-time path following, sideslip compensation, and third-order filtering.
+          - Implemented path-tangential frame transformations and distance-based velocity control based on Fossen's Marine Craft Hydrodynamics models, enabling precise waypoint navigation.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Bayero University, Kano
+        position: Mechatronics Lab Assistant
+        location: Kano, Nigeria
+        start_date: 2020-11-01
+        end_date: 2021-11-01
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+          - Assisted in organizing lab materials and preparing the environment for undergraduate industrial control labs (MCT5204 and MCT5206).
+          - Instructed students on automation lab exercises including Relay Ladder Logic (RLL) programming for Programmable Logic Controllers (PLC).
+          - Evaluated and marked student lab exams and reports with detailed feedback.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: A Framework for Human-Autonomy Collaboration in Supervisory Control of Resident AUVs
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Abubakar Aliyu Badawi
+        publisher: RAMS Europe Conference (Reliability, Availability, Maintainability and Safety)
+        releaseDate: 2026
+        url: https://drive.google.com/file/d/1zbuMj9xqYhh6LCkQlwu5_3xXHznXjiMZ/view?usp=drive_link
+        summary: Submitted at RAMS Europe Conference 2026.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Mission Planning for Small Residence Underwater Vehicle
+        summary: Designed and implemented a mission management system using Finite State Machines (FSM) in ROS2 for the Blueye X3 underwater ROV for autonomous pipeline inspections and docking operations.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Tools: Python, ROS2, Gazebo, Blueye SDK"
+          - Developed energy-aware algorithms for dynamic battery management and optimized return-to-dock velocity planning.
+        url: https://github.com/AbubakarAliyuBadawi/blueyeROV_mission_planner
+        start_date: 2024-12-01
+        end_date: 2024-12-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Open-World Semantic Segmentation for Underwater Shiphull Inspection
+        summary: Developed an open-world semantic segmentation framework for underwater ship hull inspection using the LIACI dataset, achieving 50% mIoU with a dual-decoder architecture.
+        highlights:
+          - "Tools: Python, PyTorch, OpenCV"
+          - Adapted and fine-tuned loss functions (objectosphere and contrastive loss) for underwater anomalies.
+        url: https://github.com/AbubakarAliyuBadawi/Underwater-ship-hull-Inspection-using-LIACi-dataset
+        start_date: 2024-11-01
+        end_date: 2024-11-01
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dynamic Positioning System Design for Marine Vessels
+        summary: Developed a comprehensive Dynamic Positioning (DP) system using MATLAB/Simulink, implementing Extended Kalman Filter and Nonlinear Passive Observer for state estimation.
+        highlights:
+          - "Tools: MATLAB, Simulink, MSS Toolbox"
+          - Designed thrust allocation algorithms and conducted extensive simulations under various environmental conditions.
+        url: https://github.com/AbubakarAliyuBadawi/Marine-DP-Controller
+        start_date: 2024-09-01
+        end_date: 2024-09-01
+
+      - name: "Evaluating w2v-BERT-2.0 Speech Tokenizer for Language Models"
+        summary: Enhanced speech-to-speech translation by integrating the W2v-BERT-2.0 tokenizer into Conformer-based speech models, improving linguistic performance by 5%.
+        highlights:
+          - "Tools: Python, TensorFlow, NLP, SLURM"
+          - Optimized large-scale model training on HPC clusters with SLURM, utilizing wandb for real-time monitoring.
+        url: https://github.com/AbubakarAliyuBadawi/Evaluating-w2v-BERT-2.0-Speech-Tokenizer-in-Language-Models
+        start_date: 2024-04-01
+        end_date: 2024-04-01
+
+      - name: BlueROV Visual Servoing & Autonomous Navigation
+        summary: Enhanced underwater robotic navigation by integrating high-resolution visual servoing with advanced camera systems on the BlueROV.
+        highlights:
+          - "Tools: Python, ROS, OpenCV"
+          - Developed autonomous navigation algorithms using sonar and IMU feedback, PID control and alpha-beta filtering.
+        url: https://github.com/AbubakarAliyuBadawi/BlueROV-Visual-Servoing-and-Navigation
+        start_date: 2024-03-01
+        end_date: 2024-03-01
+
+    Skills:
+      - name: Programming & Frameworks
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, TensorFlow, MATLAB, Simulink, ROS1 & ROS2, C++, PLC, RUST"
+
+      - name: CAD & Engineering Tools
+        level: Intermediate
+        icon: fa-solid fa-drafting-compass
+        keywords: "AutoCAD, CATIA V5, SolidWorks, ProfiCAD"
+
+      - name: Other Tools
+        level: Advanced
+        icon: fa-solid fa-tools
+        keywords: "Git, SLURM, HPC, Gazebo, Linux (Ubuntu), Weights & Biases"
+
+    Languages:
+      - name: English
+        summary: "Proficient (IELTS 7.0)"
+
+      - name: Hausa
+        summary: "Native"
+
+      - name: Norwegian
+        summary: "Beginner"
+
+    Awards:
+      - title: Erasmus Mundus Master Degree Scholarship in Marine Intelligent Robotics
+        date: 2023-05-01
+        awarder: European Commission
+        summary: "€49,000 scholarship for the MSc in Marine Intelligent Robotics programme."
+
+      - title: Best Project Award
+        date: 2019-10-01
+        awarder: Nigerian Universities Engineering Association (NUESA)
+        summary: Awarded for outstanding undergraduate engineering project.
+
+      - title: Best Student in Mechatronics Engineering
+        date: 2019-06-01
+        awarder: Bayero University Kano
+        summary: Recognized as the best graduating student in the department.
+
+      - title: Kano State Government Scholarship Award
+        date: 2018-04-01
+        awarder: Kano State Government
+        summary: "₦50,000 scholarship award."
+
+    Symposiums & Conferences:
+      - title: Poster Presentation on Mission Planning
+        date: 2025-06-01
+        awarder: MIR Symposium 2025, Trondheim
+        url: https://drive.google.com/file/d/19SwUcnUQrhE8EG0sqG_DB_dkAKCRJjDM/view?usp=sharing
+        summary: Presented work on mission planning for autonomous underwater vehicles.
+
+      - title: Poster Presentation on SRUVs
+        date: 2024-06-01
+        awarder: MIR Symposium 2024, Lisbon
+        url: https://drive.google.com/file/d/1ESspuGMQoyI0DpE7SKViTB-0uJagH9QW/view?usp=sharing
+        summary: Presented work on small resident underwater vehicles.
+
+      - title: Marine Intelligent Robotics Championship
+        date: 2024-06-01
+        awarder: MIR Championship, Lisbon
+        url: https://github.com/dsor-isr/MIR-Competition-2024
+        summary: Participated in the Marine Intelligent Robotics Symposium & Championship.
+
+    Professional Affiliations:
+      - name: Member, Robot Club Toulon
+        icon: fa-solid fa-robot
+        reference: "Contributed to the enhanced design of robot goalkeeper's mechanical systems for RoboCup 2024. Université de Toulon, Oct. 2023 – May 2024."
+
+      - name: Member, Nigerian Society of Engineers (NSE)
+        icon: fa-solid fa-gear
+        reference: "Engage in professional development and networking events within the engineering community in Nigeria. Oct. 2021 – Present."
